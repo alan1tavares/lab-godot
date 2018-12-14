@@ -2,9 +2,9 @@
 
 [ext_resource path="res://Player.gd" type="Script" id=1]
 [ext_resource path="res://assets/walk_1.png" type="Texture" id=2]
-[ext_resource path="res://assets/jump_1.png" type="Texture" id=3]
-[ext_resource path="res://assets/jump_2.png" type="Texture" id=4]
-[ext_resource path="res://assets/jump_3.png" type="Texture" id=5]
+[ext_resource path="res://assets/jump_3.png" type="Texture" id=3]
+[ext_resource path="res://assets/jump_1.png" type="Texture" id=4]
+[ext_resource path="res://assets/jump_2.png" type="Texture" id=5]
 [ext_resource path="res://assets/walk_2.png" type="Texture" id=6]
 [ext_resource path="res://assets/walk_3.png" type="Texture" id=7]
 
@@ -16,7 +16,12 @@ animations = [ {
 "name": "idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "falling",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 5 ) ],
 "loop": true,
 "name": "jump",
 "speed": 5.0
