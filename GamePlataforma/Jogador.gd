@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 const SPEED = 60;
 const GRAVIDADE = 10;
-const PULO_FORCA = -200;
+const PULO_FORCA = -250;
 const CHAO = Vector2(0, -1);
 
 var velocidade = Vector2();
